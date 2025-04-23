@@ -14,7 +14,6 @@ models:
       contact_tg: ikurdin
       status: in_dev
 
-
     columns:
       - name: book_ref
         data_type: varchar(8)
