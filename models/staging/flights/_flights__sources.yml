@@ -52,3 +52,26 @@ sources:
             period: day
           filter: current_timestamp::date - book_date::date < 30000
         loaded_at_field: book_date::timestamp
+      - name: flights
+        description: Перелеты
+        columns:
+          - name: flight_id
+            description: id плеча
+          - name: flight_no
+            description: Номер рейса
+          - name: scheduled_departure
+            description: Аэропорт отправления по расписанию
+          - name: scheduled_arrival
+            description: Аэропорт прибытия по расписанию
+          - name: departure_airport
+            description: Аэропорт отправления по факту
+          - name: arrival_airport
+            description: Аэропорт прибытия по факту
+          - name: status
+            description: Статус отправления
+          - name: aircraft_code
+            description: Код модели самолета
+          - name: actual_departure
+            description: Фактическое время отправления
+          - name: actual_arrival
+            description: Фактическое время прибытия
