@@ -1,0 +1,103 @@
+seeds: 
+  - name: gripp
+    description: отчетность составленная в грипп
+    config:
+      column_types: 
+        air_waybill_number: text
+        date_of_sale: text
+        date_of_flight: text
+        flight_number: text
+        cargo_transportation_route: text
+        physical_weight: text
+        volume: text
+        volume_weight: text
+        paid_weight: text
+        currency_of_sale: text
+        air_fare: text
+        air_fare_1: text
+        rfs: text
+        rfs_1: text
+        total_amount: text
+        agency_commission: text
+        agency_commission_1: text
+        fees_total: text
+        myc: text
+        myc_1: text
+        type_of_cargo: text
+        transfer_point: text
+        product_code: text
+        additional_product_code: text
+        shc_code: text
+        inn: text
+        kpp: text
+        note: text
+        the_counterparty_to_the_inn_from_fwb: text
+      delimiter: ";"
+  - name: sap_orig
+    description: отчетность составленная в sap
+    config:
+      column_types: 
+        air_waybill_number: text
+        date_of_sale: text
+        date_of_flight: text
+        flight_number: text
+        cargo_transportation_route: text
+        physical_weight: text
+        volume: text
+        volume_weight: text
+        paid_weight: text
+        currency_of_sale: text
+        air_fare: text
+        air_fare_1: text
+        rfs: text
+        rfs_1: text
+        total_amount: text
+        agency_commission: text
+        agency_commission_1: text
+        fees_total: text
+        myc: text
+        myc_1: text
+        type_of_cargo: text
+        transfer_point: text
+        product_code: text
+        additional_product_code: text
+        shc_code: text
+        inn: text
+        kpp: text
+        note: text
+        the_counterparty_to_the_inn_from_fwb: text
+      delimiter: ";"
+  - name: sap_ex
+    description: отчетность составленная в sap
+    config:
+      column_types: 
+        air_waybill_number: text
+        date_of_sale: text
+        date_of_flight: text
+        flight_number: text
+        cargo_transportation_route: text
+        physical_weight: text
+        volume: text
+        volume_weight: text
+        paid_weight: text
+        currency_of_sale: text
+        air_fare: text
+        air_fare_1: text
+        rfs: text
+        rfs_1: text
+        total_amount: text
+        agency_commission: text
+        agency_commission_1: text
+        fees_total: text
+        myc: text
+        myc_1: text
+        type_of_cargo: text
+        transfer_point: text
+        product_code: text
+        additional_product_code: text
+        shc_code: text
+        inn: text
+        kpp: text
+        note: text
+        the_counterparty_to_the_inn_from_fwb: text
+      delimiter: ";"
