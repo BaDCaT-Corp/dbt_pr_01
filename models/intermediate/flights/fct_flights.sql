@@ -14,8 +14,9 @@ select
   departure_airport,
   arrival_airport,
   status,
-  aircraft_code,
+  aircraft_code, 
   actual_departure,
-  actual_arrival
+  actual_arrival,
+  {{ concat_columns(['departure_airport', 'arrival_airport'], '-') }} as flight_leg
 from
     {{ ref('stg_flights__flights') }}
